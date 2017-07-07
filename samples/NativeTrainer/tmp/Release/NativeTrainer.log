@@ -1,0 +1,41 @@
+﻿Build started 04/10/2015 10:46:23.
+     1>Project "C:\Users\Dylan\Desktop\Source Codes\DMZ Menu\DMZ Menu\samples\NativeTrainer\NativeTrainer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D NativeTrainer_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"tmp\Release\\" /Fd"tmp\Release\vc140.pdb" /Gd /TP /errorReport:prompt script.cpp
+         script.cpp
+     1>c:\users\dylan\desktop\source codes\dmz menu\dmz menu\samples\nativetrainer\VIPSetup.h(9): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\dylan\desktop\source codes\dmz menu\dmz menu\samples\nativetrainer\Functions.h(204): warning C4838: conversion from 'WeaponAddonComponents' to 'Hash' requires a narrowing conversion
+     1>c:\users\dylan\desktop\source codes\dmz menu\dmz menu\samples\nativetrainer\Functions.h(212): warning C4838: conversion from 'WeaponAddonComponents' to 'Hash' requires a narrowing conversion
+     1>script.cpp(1616): error C2562: 'update_features': 'void' function returning a value
+         script.cpp(302): note: see declaration of 'update_features'
+     1>script.cpp(1962): error C3861: 'process_skinchanger_menu': identifier not found
+     1>script.cpp(5275): error C2181: illegal else without matching if
+     1>script.cpp(5276): error C2065: 'bBack': undeclared identifier
+     1>script.cpp(5279): error C2043: illegal break
+     1>script.cpp(5282): error C2065: 'bUp': undeclared identifier
+     1>script.cpp(5291): error C2065: 'bDown': undeclared identifier
+     1>script.cpp(5439): error C2065: 'pedModels': undeclared identifier
+     1>script.cpp(5439): error C2065: 'pedModelNames': undeclared identifier
+     1>script.cpp(5440): error C2065: 'pedModelNames': undeclared identifier
+     1>script.cpp(5457): error C2065: 'pedModels': undeclared identifier
+     1>script.cpp(6144): error C2181: illegal else without matching if
+     1>script.cpp(6315): error C2561: 'process_mass_menu': function must return a value
+         script.cpp(5917): note: see declaration of 'process_mass_menu'
+     1>script.cpp(7144): error C2601: 'process_world_menu': local function definitions are illegal
+         script.cpp(5918): note: this line contains a '{' which has not yet been matched
+     1>script.cpp(7233): error C2601: 'process_level_menu': local function definitions are illegal
+         script.cpp(5918): note: this line contains a '{' which has not yet been matched
+     1>script.cpp(7377): error C2601: 'process_main_menu': local function definitions are illegal
+         script.cpp(5918): note: this line contains a '{' which has not yet been matched
+     1>script.cpp(7489): error C2601: 'reset_globals': local function definitions are illegal
+         script.cpp(5918): note: this line contains a '{' which has not yet been matched
+     1>script.cpp(7599): error C2601: 'main': local function definitions are illegal
+         script.cpp(5918): note: this line contains a '{' which has not yet been matched
+     1>script.cpp(7625): error C2601: 'ScriptMain': local function definitions are illegal
+         script.cpp(5918): note: this line contains a '{' which has not yet been matched
+     1>script.cpp(5918): fatal error C1075: the left brace '{' was unmatched at the end of the file
+     1>Done Building Project "C:\Users\Dylan\Desktop\Source Codes\DMZ Menu\DMZ Menu\samples\NativeTrainer\NativeTrainer.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.53

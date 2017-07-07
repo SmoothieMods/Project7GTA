@@ -1,0 +1,14 @@
+﻿Build started 4/26/2015 5:11:11 PM.
+     1>Project "C:\Users\Trevor\Desktop\9\NewMenu\samples\NativeTrainer\NativeTrainer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D NativeTrainer_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"tmp\Debug\\" /Fd"tmp\Debug\vc120.pdb" /Gd /TP /errorReport:prompt script.cpp
+         script.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug\Kinky.asi" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\Debug\Kinky.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Debug\Kinky.lib" /MACHINE:X64 ..\..\lib\ScriptHookV.lib /DLL tmp\Debug\main.obj
+         tmp\Debug\script.obj
+         NativeTrainer.vcxproj -> C:\Users\Trevor\Desktop\9\NewMenu\samples\NativeTrainer\bin\Debug\Kinky.asi
+     1>Done Building Project "C:\Users\Trevor\Desktop\9\NewMenu\samples\NativeTrainer\NativeTrainer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.44
